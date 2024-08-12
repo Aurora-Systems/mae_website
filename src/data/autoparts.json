@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Engines",
+        "image": "https://ngratesc.sirv.com/mae_website/eng.png",
+        "other": ""
+    },
+    {
+        "name": "Break Disks",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209-1.png",
+        "other": ""
+    },
+    {
+        "name": "Headlights",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209-3.png",
+        "other": ""
+    },
+    {
+        "name": "Steering Gearbox",
+        "image": "https://ngratesc.sirv.com/mae_website/gearbox.png",
+        "other": ""
+    },
+    {
+        "name": "Alternator",
+        "image": "https://ngratesc.sirv.com/mae_website/alternator.png",
+        "other": ""
+    },
+    {
+        "name": "Speedometer",
+        "image": "https://ngratesc.sirv.com/mae_website/speedo.png",
+        "other": ""
+    }
+]

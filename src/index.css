@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root{
+  --p-color:#ED5300;
+}
+
+body{
+  font-family: "League SPartan", sans-serif;
+  font-style: normal;
+}
+
+.p_bg{
+  background-color: var(--p-color);
+}
+
+.p_txt{
+  color: var(--p-color);
+}
+
+a{
+  text-decoration: none;
+}
+
+.p_btn{
+  background-color: white;
+  color: var(--p-color);
+  border-color: var(--p-color);
+  border-width: 3px;
+  min-width: 100px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.p_btn:active{
+  background-color: white !important;
+  color: var(--p-color) !important;
+}
+
+.p_btn:focus{
+  background-color: white !important;
+  color: var(--p-color) !important;
+}

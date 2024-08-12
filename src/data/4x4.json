@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Storage",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209%20(2).png",
+        "other": ""
+    },
+    {
+        "name": "Slump Guard",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209%20(1).png",
+        "other": ""
+    },
+    {
+        "name": "Snorkel",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209%20(3).png",
+        "other": ""
+    },
+    {
+        "name": "Wheel Arch",
+        "image": "https://ngratesc.sirv.com/mae_website/wheel_arch.png",
+        "other": ""
+    },
+    {
+        "name": "Grills",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%2024.png",
+        "other": ""
+    },
+    {
+        "name": "Side Step",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209.png",
+        "other": ""
+    }
+]
