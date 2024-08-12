@@ -18,17 +18,16 @@ function Site() {
             <span className="text-white">+263 78 225 5545</span>
           </div>
         </div>
-        <div className="bg-black d-flex justify-content-between align-items-center pe-5 ps-4">
+        <div className="bg-black d-flex justify-content-between align-items-center pe-5 ps-4 pt-2 pb-2">
           <div className="d-flex flex-row align-items-center">
             <div>
-              <img src="https://ngratesc.sirv.com/mae_website/menu_logo.png"  className="img-fluid"/>
+              <img src="https://ngratesc.sirv.com/mae_website/menu_logo.png" width={50}  className="img-fluid"/>
             </div>
             <div>
               <nav className="d-flex gap-2 align-items-center text-white">
                 <a className="text-white" href="#auto_parts">Auto Parts</a>
                 <a className="text-white" href="#4x4">4X4</a>
                 <a className="text-white" href="#about">About</a>
-                <a className="text-white" href="#contact_us">Contact Us</a>
               </nav>
             </div>
           </div>
@@ -92,7 +91,7 @@ function Site() {
               {
                 autoparts.map((i,index)=>{
                   return(
-                    <div className="col-4" key={index}>
+                    <div className="col" key={index}>
                       <img src={i.image} className="img-fluid"  alt=""  />
                       <div className="bg-black d-flex flex-row justify-content-between p-2 rounded">
                         <span className="text-white">{i.name}</span>
@@ -130,7 +129,7 @@ function Site() {
               {
                 fourbyfour.map((i,index)=>{
                   return(
-                    <div className="col-4" key={index}>
+                    <div className="col" key={index}>
                       <img src={i.image} className="img-fluid"  alt=""  />
                       <div className="bg-black d-flex flex-row justify-content-between p-2 rounded">
                         <span className="text-white">{i.name}</span>
@@ -142,7 +141,7 @@ function Site() {
               }
             </div>
             <div className="text-center mt-5 mb-5">
-              <a href="https://wa.me/c/263782255545"><button className="p_btn">View Auto Catalogue</button></a>
+              <a href="https://wa.me/c/263782255545"><button className="p_btn">View 4x4 Catalogue</button></a>
             </div>
           </div>
       </div>
