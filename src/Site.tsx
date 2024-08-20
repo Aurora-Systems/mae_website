@@ -1,4 +1,4 @@
-import { bg_img } from "./components/css_functions"
+import { bg_img, bg_img_parts } from "./components/css_functions"
 import { FloatingWhatsApp } from "react-floating-whatsapp"
 import autoparts from "./data/autoparts.json"
 import fourbyfour from "./data/4x4.json"
@@ -71,14 +71,14 @@ function Site() {
       <div className="d-flex flex-row border-bottom p-2 border-black border-4">
        <Marquee className="gap-3">
           <img src="https://ngratesc.sirv.com/mae_website/Audi_logo_PNG2%20(1)%202.png" className="img-fluid me-5" width={100} alt="car logo"/>
-          <img src="https://ngratesc.sirv.com/mae_website/BMW_logo_PNG1%202.png" className="img-fluid me-5" width={100}  alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/BMW_logo_PNG1%202.png" className="img-fluid me-5" width={80}  alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/ford-logo-2017-640.png" className="img-fluid me-5" width={100} alt="car logo"/>
-          <img src="https://ngratesc.sirv.com/mae_website/Mercedes_logo_PNG3%201.png"className="img-fluid me-5" width={100}  alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/Mercedes_logo_PNG3%201.png"className="img-fluid me-5" width={90}  alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Toyota_logo_PNG14%201.png" className="img-fluid me-5" width={100}  alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Isuzu-logo-1991-3840x2160.png" className="img-fluid me-5" width={100} alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Audi_logo_PNG2%20(1)%202.png" className="img-fluid me-5" width={100}  alt="car logo"/>
-          <img src="https://ngratesc.sirv.com/mae_website/BMW_logo_PNG1%202.png" className="img-fluid me-5" width={100}  alt="car logo"/>
-          <img src="https://ngratesc.sirv.com/mae_website/Mercedes_logo_PNG3%201.png" className="img-fluid me-5" width={100}  alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/BMW_logo_PNG1%202.png" className="img-fluid me-5" width={80}  alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/Mercedes_logo_PNG3%201.png" className="img-fluid me-5" width={90}  alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Toyota_logo_PNG14%201.png" className="img-fluid me-5" width={100} alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Isuzu-logo-1991-3840x2160.png" className="img-fluid" width={100} alt="car logo"/>
 
@@ -88,16 +88,19 @@ function Site() {
           <div className="text-center">
             <h1 className="text-black display-1 fw-bold">AUTO <span className="p_txt">PARTS</span></h1>
           </div>
-          <div className="container">
-            <div className="row row-cols-2 ">
+          <div className="m-1">
+            <div className=" d-flex flex-wrap gap-4 justify-content-center ">
               {
                 autoparts.map((i,index)=>{
                   return(
-                    <div className="col" key={index}>
-                      <img src={i.image} className="img-fluid"  alt=""  />
+                    <div className="col-md-5 col-8" key={index}>
+                      <div style={bg_img_parts(i.image)}>
+
+                      </div>
+                     
                       <div className="bg-black d-flex flex-row justify-content-between p-2 rounded">
                         <span className="text-white">{i.name}</span>
-                        <a href="https://wa.me/263782255545" target="blank"><span className="p_txt">Enquire</span></a>
+                        <a href="https://wa.me/263779135335" target="blank"><span className="p_txt">Enquire</span></a>
                       </div>
                     </div>
                   )
@@ -114,7 +117,7 @@ function Site() {
         <div className="col-sm ps-5 text-white">
               <p>Get Up To<br/><span className="p_txt">20% OFF</span></p>
               <h1 className="display-1 fw-bold">BODY PARTS<br/>FOR YOUR<br/>GERMAN<br/><span className="p_txt">VEHICLE</span></h1>
-              <a href="https://imcomex.co.za"><button className="p_btn">Shop Now</button></a>
+              <a href="https://wa.me/263779135335"><button className="p_btn">Shop Now</button></a>
           </div>
           <div className="col-sm text-center" >
               <img className="img-fluid "  src="https://ngratesc.sirv.com/mae_website/Z86i0EXCzjS84AgyusLPH-transformed.png"/>
@@ -132,10 +135,10 @@ function Site() {
                 fourbyfour.map((i,index)=>{
                   return(
                     <div className="col" key={index}>
-                      <img src={i.image} className="img-fluid"  alt=""  />
+                      <img src={i.image} className="img-fluid"   alt=""  />
                       <div className="bg-black d-flex flex-row justify-content-between p-2 rounded">
                         <span className="text-white">{i.name}</span>
-                        <a href="https://wa.me/263782255545" target="blank"><span className="p_txt">Enquire</span></a>
+                        <a href="https://wa.me/263779135335" target="blank"><span className="p_txt">Enquire</span></a>
                       </div>
                     </div>
                   )
@@ -143,7 +146,7 @@ function Site() {
               }
             </div>
             <div className="text-center mt-5 mb-5">
-              <a href="https://wa.me/c/263782255545"><button className="p_btn">View 4x4 Catalogue</button></a>
+              <a href="https://wa.me/c/263779135335"><button className="p_btn">View 4x4 Catalogue</button></a>
             </div>
           </div>
       </div>
@@ -152,7 +155,7 @@ function Site() {
         <div className="col-sm ps-5 text-white">
               <p className="fw-bold">Best <span className="text-black">Engines</span></p>
               <h1 className="display-1 fw-bold">UNLEASH<br/>YOUR TRUE<br/><span className="text-black">POTENTIAL</span></h1>
-              <a href="https://imcomex.co.za"><button className="p_btn text-black">Shop Now</button></a>
+              <a href="https://wa.me/263779135335"><button className="p_btn text-black">Shop Now</button></a>
           </div>
           <div className="col-sm text-center" >
               <img className="img-fluid "  src="https://ngratesc.sirv.com/mae_website/engine.png"/>
@@ -178,7 +181,7 @@ function Site() {
           <p>Made By <a href="https://aurorasystems.co.zw" className="text-black" target="_blank">Aurora</a></p>
         </div>
 
-      <FloatingWhatsApp accountName="MAE Parts Distributors" phoneNumber="+263782255545" avatar="https://ngratesc.sirv.com/mae_website/menu_logo.png"/>
+      <FloatingWhatsApp accountName="MAE Parts Distributors" phoneNumber="+263779135335" avatar="https://ngratesc.sirv.com/mae_website/menu_logo.png"/>
     </div>
   )
 }

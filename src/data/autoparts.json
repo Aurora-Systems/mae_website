@@ -1,32 +1,32 @@
 [
     {
-        "name": "Engines",
-        "image": "https://ngratesc.sirv.com/mae_website/eng.png",
+        "name": "Suspension",
+        "image": "https://ngratesc.sirv.com/mae_website/suspension.png",
         "other": ""
     },
     {
-        "name": "Break Disks",
-        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209-1.png",
+        "name": "Engine Parts",
+        "image": "https://ngratesc.sirv.com/mae_website/piston.png",
         "other": ""
     },
     {
-        "name": "Headlights",
-        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209-3.png",
+        "name": "Electrical",
+        "image": "https://ngratesc.sirv.com/mae_website/battery-2431263.jpg",
         "other": ""
     },
     {
-        "name": "Steering Gearbox",
-        "image": "https://ngratesc.sirv.com/mae_website/gearbox.png",
+        "name": "Filtration Parts",
+        "image": "https://ngratesc.sirv.com/mae_website/filter.png",
         "other": ""
     },
     {
-        "name": "Alternator",
-        "image": "https://ngratesc.sirv.com/mae_website/alternator.png",
+        "name": "Mag Rims & Spoilers",
+        "image": "https://ngratesc.sirv.com/mae_website/spoiler.png",
         "other": ""
     },
     {
-        "name": "Speedometer",
-        "image": "https://ngratesc.sirv.com/mae_website/speedo.png",
+        "name": "4x4 Accesories",
+        "image": "https://ngratesc.sirv.com/mae_website/Rectangle%209.png",
         "other": ""
     }
 ]
