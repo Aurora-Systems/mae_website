@@ -15,7 +15,7 @@ function Site() {
             <a target="_blank" href="mailto:info@maepartsdistributors.co.zw"><i className="bi bi-envelope-at-fill text-white"></i></a>
           </div>
           <div>
-            <span className="text-white">+263 78 225 5545</span>
+            <span className="text-white">+263 77 913 5335</span>
           </div>
         </div>
         <div className="bg-black d-flex justify-content-between align-items-center pe-5 ps-4 pt-2 pb-2">
@@ -60,7 +60,7 @@ function Site() {
             <span className="text-white">MAE</span><br/> PARTS<br/> DISTRIBUTORS
           </h1>
           <p className="fw-bold text-white">SUPPLIERS OF GENUINE DEPENDABLE AUTO PARTS FOR GERMAN AND 4X4 VEHICLES</p>
-          <a href="tel:+263782255545">
+          <a href="tel:+263779135335">
             <button className="p_btn">
               Call Us
             </button>
@@ -72,14 +72,16 @@ function Site() {
        <Marquee className="gap-3">
           <img src="https://ngratesc.sirv.com/mae_website/Audi_logo_PNG2%20(1)%202.png" className="img-fluid me-5" width={100} alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/BMW_logo_PNG1%202.png" className="img-fluid me-5" width={100}  alt="car logo"/>
-          <img src="https://ngratesc.sirv.com/mae_website/Honda_logo_PNG2%201.png" className="img-fluid me-5" width={100} alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/ford-logo-2017-640.png" className="img-fluid me-5" width={100} alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Mercedes_logo_PNG3%201.png"className="img-fluid me-5" width={100}  alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Toyota_logo_PNG14%201.png" className="img-fluid me-5" width={100}  alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/Isuzu-logo-1991-3840x2160.png" className="img-fluid me-5" width={100} alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Audi_logo_PNG2%20(1)%202.png" className="img-fluid me-5" width={100}  alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/BMW_logo_PNG1%202.png" className="img-fluid me-5" width={100}  alt="car logo"/>
-          <img src="https://ngratesc.sirv.com/mae_website/Honda_logo_PNG2%201.png" className="img-fluid me-5" width={100}  alt="car logo"/>
           <img src="https://ngratesc.sirv.com/mae_website/Mercedes_logo_PNG3%201.png" className="img-fluid me-5" width={100}  alt="car logo"/>
-          <img src="https://ngratesc.sirv.com/mae_website/Toyota_logo_PNG14%201.png" className="img-fluid" width={50} alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/Toyota_logo_PNG14%201.png" className="img-fluid me-5" width={100} alt="car logo"/>
+          <img src="https://ngratesc.sirv.com/mae_website/Isuzu-logo-1991-3840x2160.png" className="img-fluid" width={100} alt="car logo"/>
+
        </Marquee>
       </div>
       <div id="auto_parts" className="mt-3">
@@ -112,7 +114,7 @@ function Site() {
         <div className="col-sm ps-5 text-white">
               <p>Get Up To<br/><span className="p_txt">20% OFF</span></p>
               <h1 className="display-1 fw-bold">BODY PARTS<br/>FOR YOUR<br/>GERMAN<br/><span className="p_txt">VEHICLE</span></h1>
-              <a href="https://wa.me/c/263782255545"><button className="p_btn">Shop Now</button></a>
+              <a href="https://imcomex.co.za"><button className="p_btn">Shop Now</button></a>
           </div>
           <div className="col-sm text-center" >
               <img className="img-fluid "  src="https://ngratesc.sirv.com/mae_website/Z86i0EXCzjS84AgyusLPH-transformed.png"/>
@@ -150,7 +152,7 @@ function Site() {
         <div className="col-sm ps-5 text-white">
               <p className="fw-bold">Best <span className="text-black">Engines</span></p>
               <h1 className="display-1 fw-bold">UNLEASH<br/>YOUR TRUE<br/><span className="text-black">POTENTIAL</span></h1>
-              <a href="https://wa.me/c/263782255545"><button className="p_btn text-black">Shop Now</button></a>
+              <a href="https://imcomex.co.za"><button className="p_btn text-black">Shop Now</button></a>
           </div>
           <div className="col-sm text-center" >
               <img className="img-fluid "  src="https://ngratesc.sirv.com/mae_website/engine.png"/>
@@ -172,7 +174,7 @@ function Site() {
         <div className="p_bg text-center text-white fw-bold p-2" id="contact_us">
           <p>info@maepartsdistributors.co.zw</p>
           <p>1 Edison ST Graniteside Harare</p>
-          <p>+263782255545</p>
+          <p>+263779135335</p>
           <p>Made By <a href="https://aurorasystems.co.zw" className="text-black" target="_blank">Aurora</a></p>
         </div>
 
